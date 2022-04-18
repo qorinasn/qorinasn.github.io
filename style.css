@@ -1,0 +1,188 @@
+body{
+    background: rgb(161, 140, 129);
+    margin: 0;
+}
+header{
+    height: 250px;
+    background-image: url("header.jpg");
+    background-size: cover;
+}
+.logo{
+    font-family: 'Brush script MT', cursive;
+    font-size: 600%;
+    color:rgb(76, 42, 28) ;
+    text-align: center;
+}
+.container1{
+    width: 900px;
+    height: auto;
+    background: #ccb8ae;
+    margin: auto;
+    padding-bottom: 800px;
+}
+.kotak1{
+    width: 500px;
+    height: 120px;
+    margin: 20px;
+    float: left;
+}
+.kotak1 .judul1{
+    font-size: xx-large;
+    font-family: 'Candara';
+    color: rgb(68, 22, 0);
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.tanggal1{
+    font-family: 'Monaco';
+    font-size: 15px;
+    color: rgb(91, 52, 35);
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+.kotak1 img{
+    width: 200px;
+    height: 100px;
+    float: center;
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-bottom: 7px;
+}
+.kotak1 p{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+    text-align: justify;
+    font-family: 'Garamond';
+    font-size: 18px;
+}
+.kotak2{
+    width: 200px;
+    height: 100px;
+    margin: 25px;
+    float: right;
+    padding-bottom: 320px;
+}
+.kotak2 .judul2{
+    font-size: medium;
+    font-family: 'Candara';
+    color: rgb(68, 22, 0);
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+.tanggal2{
+    font-family: 'Monaco';
+    font-size: 15px;
+    color: rgb(91, 52, 35);
+}
+.kotak2 img{
+    width: 160px;
+    height: 90px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.kotak2 .judulsidebar{
+    font-family: 'Lucida Bright';
+    background-color: rgb(133, 91, 75);
+    color: bisque;
+    text-align: center;
+    padding: 3px;
+}
+.kotak2 .isisidebar{
+    font-family: 'Didot';
+    text-align: justify;
+    color: rgb(42, 13, 0);
+    font-size: medium;
+}
+nav ul{
+    overflow: hidden;
+    color: lavender;
+    list-style: none;
+    float: center;
+    padding: 0px;
+    width: 1510px;
+    margin: 5px 5px 0px;
+    background:rgb(91, 52, 35);
+    box-shadow: 7px 7px 7px rbga (148,137,137,0.55);
+    border-radius: 30px;
+    display: flex;
+    font-family:'Comic sans', cursive;
+}
+nav li{
+    float: center;
+}
+nav li a{
+    font-family: 'Comic sans', cursive;
+    font-size: 110%;
+    display: inline-flex;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 5px 8px;
+    text-decoration: none;
+}
+nav li a:hover{
+    background-color: rosybrown;
+    color: rgb(81, 6, 6);
+}
+article{
+    width: 800px;
+    height: auto;
+    border-radius: 3px;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+article .konten{
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    margin: 20px 15px 15px 15px;
+    background: rgb(243, 232, 218);
+    border-radius: 15px;
+    float: left;
+}
+article .konten .judul{
+    font-size: xx-large;
+    font-family: 'Candara';
+    color: rgb(68, 22, 0);
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+article .konten .tanggal{
+    font-family: 'Monaco';
+    font-size: 13px;
+    color: rgb(91, 52, 35);
+    margin-left: 28px
+}
+article .konten p{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+    font-family: 'Garamond';
+    font-size: 18px;
+}
+article .konten img{
+    width: 710px;
+    height: 400px;
+    float: center;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+footer{
+    width: 900px;
+    margin: auto;
+    padding: 0.1px;
+    background-color: rgb(91, 52, 35);
+    color: blanchedalmond;
+    text-align: center;
+}
