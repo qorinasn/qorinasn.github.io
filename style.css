@@ -103,7 +103,7 @@ nav ul{
     list-style: none;
     float: center;
     padding: 0px;
-    width: 1510px;
+    width: auto;
     margin: auto;
     background:rgb(91, 52, 35);
     box-shadow: 7px 7px 7px rbga (148,137,137,0.55);
